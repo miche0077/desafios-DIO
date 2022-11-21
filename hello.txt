@@ -1,0 +1,3 @@
+hello world!
+Olá meu nome é Michelle e estou cursando introdução a git e githb na DIO.me, 
+neste respositorio estarei publicando os meus projetos e desafios.
