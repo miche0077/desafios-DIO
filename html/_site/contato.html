@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica Hanato</title>
+   <img title="Logotipo" src="/img/contato.png" alt="imagen com relogio e calendario"  style="float:right;"/><br> 
+   <style>
+     table thead th{
+        background-color: rgb(0, 114, 108);
+        color: white;    
+        }
+        table tbody tr:nth-child(even) td{
+            background-color: #d0fcfa;
+        }
+        table tbody tr:hover td{
+            background-color: #dafffc;
+            cursor: pointer;
+        }
+    
+   </style>
+</head>
+
+<div class="wrapper">
+    <div class="menu">
+     <ul style="font-family:Times, serif; font-size: small;">
+    <li><a href="./Clinica.html" target="_self">Página Principal</a></li> 
+    <li><a href="./SobreClinica.html" target="_self">Sobre a Clínica </a></li>
+    <li><a href="./horario.html" target="_self">Horario de Atendimento</a></li>
+    <li><a href="./contato.html" target="_blank">Contato</a></li>
+     </ul>   
+    </div>
+</div>
+<br><br>
+<div class="content">
+        <h4>Telefone</h4> <p style="color:rgb(80, 81, 90)">(13) 98182-2406</p>
+        <h4>Endereço</h4><p style="color:rgb(80, 81, 90)">📍 Rua Luiz Pereira de Campos, 989 – Centro – Bertioga/SP – 11250-117</p>
+    <br><br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7298.409898526928!2d-46.139973!3d-23.846855!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cdfc724cf305d5%3A0x302b23641af2991b!2sR.%20Lu%C3%ADz%20Pereira%20do%20Campos%2C%20989%20-%20Centervalle%2C%20Bertioga%20-%20SP%2C%2011250-000%2C%20Brazil!5e0!3m2!1sen!2sus!4v1669750000656!5m2!1sen!2sus"
+    width="500" height="450" style="border:0;" allowfullscreen=""
+    loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+    <form style="width:60%; height:100%;" name="formulario" method="get" action="#" autocomplete="off" onsubmit="alert('enviado!')">
+    <fieldset>
+        <legend>
+     Dados de contato:
+    </legend>
+    <label>Nome:</label>
+    <input type="text" name="nome" />
+    <label >Email:</label>
+    <input type="email" name="email"/>
+    <label>Assunto:</label>
+    <input type="text" name="assunto"/><br><br>
+    <label>Mensagem:</label><br>
+    <textarea  placeholder="Mensagem"></textarea>
+    <button type="reset">Limpar</button>
+    <button type="submit">Enviar </button>
+</fieldset>
+</form>
+</div>
+<div class="footer">
+    <h5 style="color:rgb(20, 24, 59)">Contato</h5>
+    <h6>(13) 98182-2406<br>
+    Rua Luiz Pereira de Campos, 989 – Centro – Bertioga/SP</h6>
+</div>
+    
+
+</body>
+
+</html>
